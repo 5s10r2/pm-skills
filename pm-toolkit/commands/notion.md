@@ -27,10 +27,12 @@ Smart router for Notion across two MCP servers. Picks the right tool, handles fa
 
 ## Companion Files
 
-This skill works with two companion files that should be loaded during write operations:
+This skill works with two companion reference files located in `skills/notion/`:
 
 - **`notion-operations-guide.md`** — Tool inventory, decision matrices, block estimation, known pitfalls (P1–P12)
 - **`notion-learnings.md`** — Living knowledge base of discovered patterns, workarounds, and optimizations
+
+Load these before any write operation. They contain the full tool inventory, pitfall catalog, and accumulated workarounds.
 
 ---
 
